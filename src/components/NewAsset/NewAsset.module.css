@@ -1,0 +1,70 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 85%;
+  min-width: 20%;
+  background-color: #0C0D0C;
+  animation: .4s onShow ease-in;
+  border-radius: 15px;
+}
+
+.success {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: greenyellow;
+}
+
+p i {
+  padding-right: .2rem;
+}
+
+.error {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: red;
+}
+
+.panel-button {
+  text-align: center;
+  background-color: #0C0D0C;
+  max-width: 65%;
+  margin: 0 auto;
+  margin-bottom: 1.4rem;
+  animation: .4s onClose ease-in;
+  border-radius: 15px;
+}
+
+.button {
+  font-size: 1.1rem;
+  padding: .7rem 1.6rem;
+  margin: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s;
+  background-color: #8ABFBA;
+  color: black;
+  border: none;
+}
+
+.button:hover {
+  background-color: #F2F2F2;
+}
+
+@keyframes onShow {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes onClose {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}

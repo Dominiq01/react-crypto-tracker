@@ -1,0 +1,59 @@
+.wrapper {
+  max-width: 48vw;
+  min-width: 20vw;
+  background-color: #262626;
+  padding: 2rem;
+  animation: 1s onShow ease-in-out;
+  margin: 2rem 0;
+  transition: all ease .3s;
+}
+
+.title {
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 1.4rem;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.4rem;
+}
+
+.error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.4rem;
+  color: red;
+}
+
+@keyframes onShow {
+  from {
+    transform: translateX(-3rem);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media(max-width: 1300px) {
+  .wrapper {
+    max-width: 60vw;
+  }
+}
+
+@media(max-width: 800px) {
+  .wrapper {
+    max-width: 75vw;
+  }
+}
+
+@media(max-width: 600px) {
+  .wrapper {
+    max-width: 90vw;
+  }
+}

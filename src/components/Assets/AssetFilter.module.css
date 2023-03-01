@@ -1,0 +1,30 @@
+.title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: .8rem;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0D0D0D;
+  font-size: 1.1rem;
+  border-radius: 12px;
+}
+
+.filter div {
+  padding: .5rem;
+  cursor: pointer;
+}
+
+.filter__sign {
+  display: inline-block;
+}
+
+.filter__sign i {
+  font-size: 1rem;
+}
+
+.filter__sign i.active{
+  color: #8ABFBA;
+}

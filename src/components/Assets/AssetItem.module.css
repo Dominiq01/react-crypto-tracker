@@ -1,0 +1,20 @@
+.asset {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.1rem .2rem;
+  background-color: #8ABFBA;
+  color: #242625;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  padding: .4rem 1rem;
+}
+
+.asset__name {
+  font-size: 1.4rem;
+}
+
+.asset__price {
+  font-weight: bold;
+}

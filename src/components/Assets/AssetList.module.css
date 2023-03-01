@@ -1,0 +1,12 @@
+.assets {
+  padding: 1.2rem;
+  margin-top: 2rem;
+  list-style: none;
+  background-color: #0C0D0C;
+  border-radius: 15px;
+}
+
+.assets p {
+  text-align: center;
+  font-size: 1.1rem;
+}

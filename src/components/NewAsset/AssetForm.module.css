@@ -1,0 +1,57 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  margin: 1.2rem;
+}
+
+.form__value {
+  flex-basis: 50%;
+  padding: 1.2rem;
+}
+
+.form__value p {
+  font-size: 1rem;
+  color: red;
+}
+
+.form__value p i{
+  padding-right: .3rem;
+}
+
+.form__value input{
+  display: block;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  outline: none;
+  padding: .2rem;
+}
+
+.form__value label{
+  display: block;
+  font-size: .9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: .2rem;
+  color: #b4ccca;
+}
+.form__actions {
+  padding: 1rem 0;
+}
+
+.form__actions button {
+  font-size: 1.1rem;
+  padding: .7rem 1.6rem;
+  margin: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s;
+  background-color: #8ABFBA;
+  border: none;
+}
+
+.form__actions button:hover {
+  background-color: #F2F2F2;
+}
